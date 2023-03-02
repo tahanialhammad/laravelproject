@@ -11,7 +11,12 @@
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
                 </div>
+
+                <div class="p-6 text-gray-900">
+                    <h1>Laravel 9 with Vuejs 3</h1>
+                </div>
             </div>
         </div>
     </div>
+
 </x-app-layout>

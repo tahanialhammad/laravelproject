@@ -5,4 +5,4 @@ import Alpine from 'alpinejs';
 window.Alpine = Alpine;
 
 Alpine.start();
-alert('hi Laravel 9');
+// alert('hi Laravel 9');

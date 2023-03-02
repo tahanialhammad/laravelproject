@@ -22,10 +22,12 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+//only admin
 Route::middleware('is_admin')->group(function () {
     Route::get('/admin', [ProfileController::class, 'admin'])->name('profile.admin');
 });
 
+//all users
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
