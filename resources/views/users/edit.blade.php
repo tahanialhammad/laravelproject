@@ -1,5 +1,6 @@
-@extends('layouts.app')
-@section('content')
+{{-- @extends('layouts.app')
+@section('content') --}}
+<x-app-layout>
 
     <!-- component -->
     <div class="flex items-center justify-center p-12">
@@ -118,4 +119,6 @@
     </div>
 
     <p class="text-center text-primary"><small>Tutorial by LaravelTuts.com</small></p>
-@endsection
+    
+</x-app-layout>
+{{-- @endsection --}}

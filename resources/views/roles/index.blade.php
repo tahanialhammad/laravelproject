@@ -1,5 +1,6 @@
-@extends('layouts.app')
-@section('content')
+{{-- @extends('layouts.app')
+@section('content') --}}
+<x-app-layout>
 <div class="row">
     <div class="m-3 flex flex-wrap">
         <div class="">
@@ -76,5 +77,5 @@
 </div>
 
 {!! $roles->render() !!}
-<p class="text-center text-primary"><small>Tutorial by LaravelTuts.com</small></p>
-@endsection
+</x-app-layout>
+{{-- @endsection --}}

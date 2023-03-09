@@ -1,5 +1,6 @@
-@extends('layouts.app')
-@section('content')
+{{-- @extends('layouts.app')
+@section('content') --}}
+<x-app-layout>
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -42,4 +43,5 @@
         </div>
     </form>
     <p class="text-center text-primary"><small>Tutorial by LaravelTuts.com</small></p>
-@endsection
+</x-app-layout>
+{{-- @endsection --}}

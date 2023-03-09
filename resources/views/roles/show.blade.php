@@ -1,6 +1,6 @@
-@extends('layouts.app')
-@section('content')
-
+{{-- @extends('layouts.app')
+@section('content') --}}
+<x-app-layout>
     <!-- component -->
 
     <div class="p-10">
@@ -33,5 +33,6 @@
                 </form>
             </div>
         </div>
-
-    @endsection
+    </div>
+    </x-app-layout>
+    {{-- @endsection --}}

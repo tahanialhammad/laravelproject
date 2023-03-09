@@ -29,11 +29,12 @@
 
             <!-- Page Content -->
             <main>
-                {{-- {{ $slot }} --}}
+                {{ $slot }}
 
-                @yield('content')
+                {{-- @yield('content') --}}
 
             </main>
         </div>
+        {{-- @stack('scripts') --}}
     </body>
 </html>

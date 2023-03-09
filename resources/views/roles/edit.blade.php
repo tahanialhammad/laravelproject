@@ -1,6 +1,6 @@
-@extends('layouts.app')
-@section('content')
-
+{{-- @extends('layouts.app')
+@section('content') --}}
+<x-app-layout>
     <div class="p-10">
         <div class="container mx-auto">
             <div class="rounded-lg bg-white p-10 shadow-lg">
@@ -57,5 +57,5 @@
             </div>
         </div>
     </div>
-
-@endsection
+</x-app-layout>
+{{-- @endsection --}}
