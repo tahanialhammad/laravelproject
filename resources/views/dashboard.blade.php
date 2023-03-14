@@ -13,10 +13,17 @@
                 </div>
 
                 <div class="p-6 text-gray-900">
-                    <h1>Laravel 9 with Vuejs 3</h1>
+                    <h1>Laravel 9 with Vuejs 3 = </h1>
+                    <test></test>
+                    <Test/>
                 </div>
             </div>
         </div>
     </div>
+    @push('scripts')
+        <script>
+            Swal.fire('Any fool can use a computer v2')
+        </script>
+    @endpush
 
 </x-app-layout>

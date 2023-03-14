@@ -1,8 +1,24 @@
-import './bootstrap';
+require('./bootstrap');
 
-import Alpine from 'alpinejs';
+import { createApp } from 'vue'
+import Test from './components/Test.vue'
 
-window.Alpine = Alpine;
 
-Alpine.start();
-// alert('hi Laravel 9');
+createApp({
+    components: {
+        Test,
+    }
+}).mount('#app')
+
+
+// createApp(Test).mount('#app');
+
+
+// const app = createApp({})
+
+// app.component('test', Test)
+
+// app.mount('#app')
+
+
+

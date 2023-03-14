@@ -15,7 +15,7 @@
         @vite(['resources/assets/css/app.css', 'resources/assets/js/app.js'])
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div id="app" class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
@@ -35,6 +35,11 @@
 
             </main>
         </div>
-        {{-- @stack('scripts') --}}
+        {{-- Sweet alert 2 CDN  --}}
+        {{-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
+        {{-- nu werkt via published vendor  na edit van sweetalert.php in config   'alwaysLoadJS' => env('SWEET_ALERT_ALWAYS_LOAD_JS', true), --}}
+        @include('sweetalert::alert') 
+
+        @stack('scripts')
     </body>
 </html>
