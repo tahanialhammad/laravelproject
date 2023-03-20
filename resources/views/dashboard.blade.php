@@ -22,7 +22,7 @@
     </div>
     @push('scripts')
         <script>
-            Swal.fire('Any fool can use a computer v2')
+            // Swal.fire('Hi from Sweetalert2')
         </script>
     @endpush
 

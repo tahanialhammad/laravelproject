@@ -23,28 +23,8 @@ import vue from '@vitejs/plugin-vue';
 // });
 
 
+
 //test 2
-// export default defineConfig({
-//     plugins: [
-//         laravel({
-//             input: 'resources/assets/js/app.js',
-//             input: 'resources/assets/css/app.css',
-//             refresh: true,
-//         }),
-//         vue({
-//             template: {
-//                 transformAssetUrls: {
-//                     base: null,
-//                     includeAbsolute: false,
-//                 },
-//             },
-//         }),
-//     ],
-// });
-
-
-
-//test 3
 
 export default defineConfig({
     plugins: [
