@@ -1,6 +1,10 @@
-require('./bootstrap');
+// require('./bootstrap');
 
-import { createApp } from 'vue'
+import { createApp, h } from 'vue';
+import { createInertiaApp } from '@inertiajs/vue3';
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
+
+// import { createApp } from 'vue'
 import ExampleComponent from './Components/ExampleComponent.vue'
 
 

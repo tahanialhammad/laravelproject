@@ -14,8 +14,7 @@
 
                 <div class="p-6 text-gray-900">
                     <h1>Laravel 9 with Vuejs 3 = </h1>
-                    <test></test>
-                    <Test/>
+               <example-component></example-component>
                 </div>
             </div>
         </div>

@@ -28,10 +28,18 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
     plugins: [
-        vue(),
         laravel([
             'resources/assets/css/app.css',
             'resources/assets/js/app.js',
         ]),
+        vue(),
+         // vue({
+        //     template: {
+        //         transformAssetUrls: {
+        //             base: null,
+        //             includeAbsolute: false,
+        //         },
+        //     },
+        // }),
     ],
 });

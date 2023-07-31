@@ -14,6 +14,8 @@
 
     <!-- Scripts -->
     @vite(['resources/assets/css/app.css', 'resources/assets/js/app.js'])
+    @inertiaHead
+    
 </head>
 
 <body class="font-sans antialiased">
